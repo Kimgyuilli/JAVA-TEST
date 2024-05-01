@@ -30,12 +30,11 @@ public class _04_Comment {
         score_d = 93 + 98.8; //암시적 형 변환으로 오류 발생 X
         double score_d2 = score_f;
         // int -> long -> float -> double 순서로  암시적 현변환 가능
-
         // 숫자를 문자열로
         String s1 = String.valueOf(93);
         System.out.println(s1);
         s1 =  Integer.toString(93);
-
+//
         int i = Integer.parseInt("93");
         double dd = Double.parseDouble("93.3");
     }
